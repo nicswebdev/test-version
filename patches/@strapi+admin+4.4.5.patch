@@ -1,0 +1,38 @@
+diff --git a/node_modules/@strapi/admin/admin/src/translations/en.json b/node_modules/@strapi/admin/admin/src/translations/en.json
+index 128dff9..74571f6 100644
+--- a/node_modules/@strapi/admin/admin/src/translations/en.json
++++ b/node_modules/@strapi/admin/admin/src/translations/en.json
+@@ -14,7 +14,7 @@
+   "Auth.form.confirmPassword.label": "Confirmation Password",
+   "Auth.form.currentPassword.label": "Current Password",
+   "Auth.form.email.label": "Email",
+-  "Auth.form.email.placeholder": "e.g. kai@doe.com",
++  "Auth.form.email.placeholder": "Email",
+   "Auth.form.error.blocked": "Your account has been blocked by the administrator.",
+   "Auth.form.error.code.provide": "Incorrect code provided.",
+   "Auth.form.error.confirmed": "Your account email is not confirmed.",
+@@ -43,9 +43,9 @@
+   "Auth.form.register.subtitle": "Credentials are only used to authenticate in Strapi. All saved data will be stored in your database.",
+   "Auth.form.rememberMe.label": "Remember me",
+   "Auth.form.username.label": "Username",
+-  "Auth.form.username.placeholder": "e.g. Kai_Doe",
++  "Auth.form.username.placeholder": "Email",
+   "Auth.form.welcome.subtitle": "Log in to your Strapi account",
+-  "Auth.form.welcome.title": "Welcome to Strapi!",
++  "Auth.form.welcome.title": "Welcome!",
+   "Auth.link.forgot-password": "Forgot your password?",
+   "Auth.link.ready": "Ready to sign in?",
+   "Auth.link.signin": "Sign in",
+diff --git a/node_modules/@strapi/admin/index.html b/node_modules/@strapi/admin/index.html
+index a00a161..6b7658c 100644
+--- a/node_modules/@strapi/admin/index.html
++++ b/node_modules/@strapi/admin/index.html
+@@ -6,7 +6,7 @@
+     <!-- Make the page mobile compatible -->
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <meta name="mobile-web-app-capable" content="yes" />
+-    <title>Strapi Admin</title>
++    <title>Kayumanis CMS Admin</title>
+   </head>
+   <body>
+     <!-- The app hooks into this div -->
